@@ -7,8 +7,7 @@ console.log(images);
 
 let gifs = document.getElementById("gif-container")
 let button = document.getElementById("fetch-gif-btn")
-button.addEventListener("click", function() {
-    async
+button.addEventListener("click", async() => {
     images.forEach(function(data) {
         gifContainer.innerHTML += `<img src=${URL} class = "col-3 mb-3">`
     });
