@@ -4,3 +4,12 @@ let endpoint = "https://api.giphy.com/v1/gifs/search?api_key=C7u6nYC8PXnTdocGEz8
 let data = fetch(endpoint);
 let images = [data]
 console.log(images);
+
+let gifs = document.getElementById("gif-container")
+let button = document.getElementById("fetch-gif-btn")
+button.addEventListener("click", function() {
+    async
+    images.forEach(function(data) {
+        gifContainer.innerHTML += `<img src=${URL} class = "col-3 mb-3">`
+    });
+});
