@@ -9,6 +9,6 @@ let gifs = document.getElementById("gif-container")
 let button = document.getElementById("fetch-gif-btn")
 button.addEventListener("click", async() => {
     images.forEach(function(data) {
-        gifContainer.innerHTML += `<img src=${URL} class = "col-3 mb-3">`
+        gifContainer.innerHTML += `<img src=${"https://giphy.com/gifs/kitty-ai-meowtakeover-7NNqJw0T3cb62PMzXR"} class = "col-3 mb-3">`
     });
 });
